@@ -1,3 +1,4 @@
+````sql
 -- In this SQL, I'm querying a database with multiple tables in it to quantify statistics about customer and order data. --
 
 -- How many unique orders were placed in January?
@@ -86,3 +87,4 @@ WHERE length(orderID) = 6 AND orderid != "Order ID"
 GROUP BY product
 ORDER BY Revenue desc
 LIMIT 1;
+````
