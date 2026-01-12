@@ -1,3 +1,4 @@
+````sql
 CREATE TABLE BIT_DB.Spotifydata (
 id integer PRIMARY KEY,
 artist_name varchar NOT NULL,
@@ -45,3 +46,4 @@ WHERE valence > 0.8;
 SELECT song_key, COUNT(*) AS Number_Songs
 FROM Spotifydata
 GROUP BY song_key;
+````
