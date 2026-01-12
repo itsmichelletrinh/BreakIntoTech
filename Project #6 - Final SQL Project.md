@@ -1,3 +1,4 @@
+````sql
 -- In this SQL, I'm querying a database with multiple tables in it to quantify statistics about customer and order data. --
 
 -- Which customer has spent the most money on invoices? 
@@ -94,3 +95,4 @@ WHERE invoices.invoicedate LIKE "2009%"
 GROUP BY employees.EmployeeId
 ORDER BY Total_Sales desc
 LIMIT 1;
+````
