@@ -1,4 +1,5 @@
-  CREATE TABLE vips (
+  ````sql
+CREATE TABLE vips (
      member_id INTEGER PRIMARY KEY
    , last_name TEXT
    , first_name TEXT
@@ -187,3 +188,4 @@ LEFT JOIN reservations
 ON reservations.hotel = hotels.hotel_id
 GROUP BY hotels.hotel_name
 ORDER BY COUNT(reservations.hotel) desc;
+````
