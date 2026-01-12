@@ -1,3 +1,4 @@
+````sql
 CREATE TABLE superstore (
     item_id INTEGER PRIMARY KEY,
     item_name TEXT,
@@ -48,3 +49,4 @@ WHERE category="Kitchen Supplies";
 SELECT SUM(stock_quantity)
 FROM superstore
 WHERE item_name="Air Purifier";
+````
