@@ -1,3 +1,4 @@
+````sql
 CREATE TABLE fortune_companies (
     company_id INTEGER PRIMARY KEY,
     company_name TEXT,
@@ -95,3 +96,4 @@ CASE
 END AS "Condition"
 FROM fortune_companies
 WHERE paid_time_off_days<18 OR healthcare_benefits=0;
+````
